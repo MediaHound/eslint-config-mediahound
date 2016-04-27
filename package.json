@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-mediahound",
+  "version": "1.0.0",
+  "description": "ESLint configuration for MediaHound",
+  "main": "index.js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Dustin Bachrach <dustin@mediahound.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MediaHound/eslint-config-mediahound.git"
+  },
+}
