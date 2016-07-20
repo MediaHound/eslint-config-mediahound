@@ -74,7 +74,7 @@ module.exports = {
     "no-process-env": 0,        // disallow use of process.env (off by default)
     "no-proto": 1,              // disallow usage of __proto__ property
     "no-redeclare": 1,          // disallow declaring the same variable more then once
-    "no-return-assign": 1,      // disallow use of assignment in return statement
+    "no-return-assign": 0,      // disallow use of assignment in return statement
     "no-script-url": 1,         // disallow use of javascript: urls.
     "no-self-compare": 1,       // disallow comparisons where both sides are exactly the same (off by default)
     "no-sequences": 1,          // disallow use of comma operator
