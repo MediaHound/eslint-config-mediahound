@@ -11,7 +11,8 @@ module.exports = {
   },
   "plugins": [
     "react",
-    "import"
+    "import",
+    "jsx-a11y"
   ],
   "globals": {
     "analytics": true
@@ -131,18 +132,10 @@ module.exports = {
     "space-infix-ops": 1,           // require spaces around operators
     "space-unary-ops": 1,           // Require or disallow spaces before/after unary operators (words on by default, nonwords off by default)
 
+
     ////////// REACT //////////
     "react/display-name": 1,
-    "react/jsx-boolean-value": 1,
-    "react/jsx-curly-spacing": 1,
-    "react/jsx-max-props-per-line": 1,
-    "react/jsx-no-duplicate-props": 1,
-    "react/jsx-no-undef": 1,
-    "react/jsx-quotes": 0,
     "react/sort-prop-types": 1,
-    "react/jsx-sort-props": 0,
-    "react/jsx-uses-react": 1,
-    "react/jsx-uses-vars": 1,
     "react/no-danger": 0,
     "react/no-did-mount-set-state": 1,
     "react/no-did-update-set-state": 1,
@@ -153,16 +146,51 @@ module.exports = {
     "react/require-extension": 0,
     "react/self-closing-comp": 1,
     "react/sort-comp": 1,
-    "react/wrap-multilines": 1,
+    "react/require-render-return": 1,
+    "react/no-unknown-property": 1,
+
+    "react/jsx-boolean-value": 1,
+    "react/jsx-curly-spacing": 1,
+    "react/jsx-max-props-per-line": 1,
+    "react/jsx-no-duplicate-props": 1,
+    "react/jsx-no-undef": 1,
+    "react/jsx-quotes": 0,
+    "react/jsx-sort-props": 0,
+    "react/jsx-uses-react": 1,
+    "react/jsx-uses-vars": 1,
+    "react/jsx-space-before-closing": [1, "always"],
+    "react/jsx-pascal-case": 1,
+    "react/jsx-no-target-blank": 1,
+    "react/jsx-no-comment-textnodes": 1,
+    "react/jsx-key": 1,
+    "react/jsx-indent": [1, 2],
+    "react/jsx-first-prop-new-line": [1, "never"],
+    "react/jsx-equals-spacing": [1, "never"],
+    "react/jsx-wrap-multilines": 1,
 
 
     /////////// Import /////////
     "import/no-unresolved": [2, { commonjs: true, amd: true }],
-    "import/imports-first": [2, "absolute-first"],
+    "import/imports-first": [1, "absolute-first"],
     "import/named": 2,
     "import/namespace": 2,
     "import/no-duplicates": 2,
     "import/default": 2,
-    "import/export": 2
+    "import/export": 2,
+    "import/no-extraneous-dependencies": 1,
+    "import/no-mutable-exports": 1,
+    "import/newline-after-import": 1,
+
+    /////////// JSX a11y /////////
+    "jsx-a11y/aria-props": 1,
+    "jsx-a11y/aria-proptypes": 1,
+    "jsx-a11y/aria-role": 1,
+    "jsx-a11y/aria-unsupported-elements": 1,
+    "jsx-a11y/img-has-alt": 1,
+    "jsx-a11y/img-redundant-alt": 1,
+    "jsx-a11y/label-has-for": 1,
+    "jsx-a11y/role-has-required-aria-props": 1,
+    "jsx-a11y/role-supports-aria-props": 1
+
   }
 };
