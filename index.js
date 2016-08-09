@@ -12,7 +12,8 @@ module.exports = {
   "plugins": [
     "react",
     "import",
-    "jsx-a11y"
+    "jsx-a11y",
+    "filenames"
   ],
   "globals": {
     "analytics": true
@@ -190,7 +191,11 @@ module.exports = {
     "jsx-a11y/img-redundant-alt": 1,
     "jsx-a11y/label-has-for": 1,
     "jsx-a11y/role-has-required-aria-props": 1,
-    "jsx-a11y/role-supports-aria-props": 1
+    "jsx-a11y/role-supports-aria-props": 1,
 
+    /////////// Filenames ////////
+    "filenames/match-regex": [1, "^[a-z-\.]+$", true],
+    "filenames/match-exported": [1, "kebab"],
+    "filenames/no-index": 1
   }
 };
