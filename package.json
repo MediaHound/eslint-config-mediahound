@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mediahound",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "ESLint configuration for MediaHound",
   "main": "index.js",
   "keywords": [
@@ -18,6 +18,6 @@
     "eslint-plugin-filenames": "^1.1.0",
     "eslint-plugin-import": "^1.12.0",
     "eslint-plugin-jsx-a11y": "^2.0.1",
-    "eslint-plugin-react": "^6.0.0"
+    "eslint-plugin-react": "^6.2.0"
   }
 }
