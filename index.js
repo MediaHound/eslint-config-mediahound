@@ -16,7 +16,8 @@ module.exports = {
     "filenames"
   ],
   "globals": {
-    "analytics": true
+    "analytics": true,
+    "drift": true
   },
   "rules": {
     ////////// Possible Errors //////////
