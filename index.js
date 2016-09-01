@@ -150,7 +150,7 @@ module.exports = {
     "react/sort-comp": 1,
     "react/require-render-return": 1,
     "react/no-unknown-property": 1,
-    "react/no-unused-prop-types": 1,
+    // "react/no-unused-prop-types": 1,
 
     "react/jsx-boolean-value": 1,
     "react/jsx-curly-spacing": 1,
